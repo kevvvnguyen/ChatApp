@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<base href="/">
 
-	<title>Starter Node and Angular</title>
+	<title>Slack</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
+	<link rel="stylesheet" href="/css/style.css"> <!-- custom styles -->
 
 	<!-- JS -->
 	<script src="libs/angular/angular.min.js"></script>
@@ -25,16 +25,17 @@
 </head>
 <body ng-app="sampleApp" ng-controller="NerdController">
 <div class="container">
-	
+
 	<!-- HEADER -->
 	<nav class="navbar navbar-inverse">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="/">Stencil: Node and Angular</a>
+			<h1>Kevin's Slack App</h1>
 		</div>
-		<ul class="nav navbar-nav">
-			<li><a href="/nerds">Nerds</a></li>
-			<li><a href="/geeks">Geeks</a></li>
-		</ul>
+		<div class="nav navbar-nav">
+			<a href="/views/signup.html">New? Sign up here</a>
+			<br />
+			<a href="/views/login.html">Returning User? Log In Here</a>
+		</div>
 	</nav>
 
 	<!-- ANGULAR DYNAMIC CONTENT -->
